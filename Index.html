@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Wonder Moon</title>
+
+<style>
+.header { grid-area: header; }
+.me { grid-area: menu; }
+.main1 { grid-area: main; }
+.main2 { grid-area: right; }
+.footer { grid-area: footer; }
+
+.index-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+	'menu main main main right right'
+	'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.index-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.centerImage
+{
+ text-align:center;
+ display:block;
+ margin-left:Auto;
+ margin-right:Auto;
+}
+.Page{
+ border: 1px solid black;
+  margin: 100px 75px 75px 50px;
+  background-image: url:"../Pics/BGI.jpg";
+  background-color:lightblue;
+}
+</style>
+</head>
+<body>
+
+
+<div class="index-container">
+  <div class="header">
+  <a href="Index.html"><img src="Pics/logo.png" target="self" class="centerImage" width="20%">
+	</a>
+  </div>
+  <div class="me">
+  About me</br>
+  My name is Joey. I'm student. This travel blog is create to shown my interest on nature and travel across the world.
+  <img src = "Pics/1.jpg" alt="picture of the author" class="centerImage" width="50%" >
+  </div>
+  <div class="item1">
+  <a href="Web/MA.html" target="self" >5 place to visit in Canberra</a>
+   <img src="Pics/CB.jpg" class="centerImage" width="auto">
+   </div>  
+  <div class="item2">
+    <a href="Web/OA.html" target="self"> 5 place to visit in the World</a>
+  <img src="Pics/GB.png" class="centerImage" width="70%">
+  </div>
+  <div class="footer">
+  <a href="https://www.facebook.com/joey.dinh.984"><img src="Pics/fb.png" target="self" alt="facebook icon" class="centerImage" width="10%"> Contact me </a></div>
+</div>
+
+</body>
+</html>
+
+

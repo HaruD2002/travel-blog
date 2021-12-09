@@ -1,0 +1,60 @@
+
+.text{
+	font-family: monaco,monospace; 
+	font-size: 20px; 
+	text-align: center;
+	padding: 5px; 
+}
+
+}
+
+.header { grid-area: header; }
+.me { grid-area: menu; }
+.main1 { grid-area: main; }
+.main2 { grid-area: right; }
+.footer { grid-area: footer; }
+
+
+.index-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+	'menu main main main right right'
+	'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.index-container > div {
+  background-color: lightgreen;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.centerImage
+{
+ text-align:center;
+ display:block;
+ margin-left:Auto;
+ margin-right:Auto;
+}
+.Page{
+ border: 1px solid black;
+  margin: 100px 75px 75px 50px;
+  background-image: url:"../Pics/BGI.jpg";
+  background-color:lightblue;
+}
+.indexs-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+	'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: lightgreen;
+  padding: 10px;
+}
